@@ -1,0 +1,12 @@
+#include "corne.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&pro_micro x GPIO_ACTIVE_HIGH>
+        , <&pro_micro x GPIO_ACTIVE_HIGH>
+        , <&pro_micro x GPIO_ACTIVE_HIGH>
+        , <&pro_micro x GPIO_ACTIVE_HIGH>
+        , <&pro_micro x GPIO_ACTIVE_HIGH>
+        , <&pro_micro x GPIO_ACTIVE_HIGH>
+        ;
+};

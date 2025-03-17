@@ -1,0 +1,12 @@
+{
+    "id": "corne",
+    "name": "CORNE",
+    "layouts": {
+        "default_transform" :{
+            "name": "default_transform",
+            "layout": [
+                
+            ]
+        }
+    }
+}
