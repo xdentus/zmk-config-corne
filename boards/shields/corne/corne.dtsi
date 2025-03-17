@@ -29,10 +29,10 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)             RC(2,6) RC(2,7) RC(2
         wakeup-source;
         diode-direction = "col2row";
         row-gpios
-            = <&pro_micro x (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro x (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro x (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro x (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&pro_micro D6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro D7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro D8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro D9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;   
     };
 };
