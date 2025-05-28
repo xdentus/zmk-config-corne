@@ -1,0 +1,11 @@
+file_format: "1"
+id: corne
+name: CORNE
+type: shield
+url: https://github.com/Bastardkb/TBK-Mini
+requires: [Nice!Nano]
+features:
+  - keys
+siblings:
+  - corne_left
+  - corne_right
